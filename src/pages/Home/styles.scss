@@ -1,22 +1,23 @@
-.home-container {
-    margin-top: 115px;
+.home-container{
     padding-left: 120px;
-    padding-right: 700px;
-    padding-bottom: 260px;
+    padding-top: 117px;
+    background-color: #E5E5E5;
 }
 
-.text-title {
+.text-title{
     font-size: 48px;
     line-height: 64px;
     display: flex;
     align-items: center;
     letter-spacing: 0.02em;
+    margin-bottom: 17px;
 }
 
-.text-subtitle {
-    margin-top: 24px;
-    margin-bottom: 50px;
+.text-subtitle{
+    font-weight: normal;
     font-size: 20px;
     line-height: 36px;
-    color: #5a6774;
+    color: #5A6774;
+    width: 610px;
+    margin-bottom: 48px;
 }

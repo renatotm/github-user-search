@@ -5,10 +5,12 @@ type Props = {
     text: string;
 }
 
-const Button = ({ text }: Props) => (
-    <button className="btn btn-primary btn-icon">
-        <p className="btn-text">{text}</p>
-    </button>
-)
+const Button = ({text}: Props) => (
+    <div className="d-flex">
+        <button className="btn btn-primary btn-content">
+            {text}
+        </button>
+    </div>
+);
 
 export default Button;
